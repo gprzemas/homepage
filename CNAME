@@ -1,1 +1,18 @@
 gprzemas.github.io
+
+# 4. Podpięcie własnej domeny
+
+# Załóżmy, że masz domenę twojadomena.pl.
+
+# 1. Dodaj plik CNAME w repozytorium:• Add file → Create new file.
+# • Nazwa pliku: CNAME (bez rozszerzenia).
+# • Zawartość pliku:twojadomena.pl
+
+# • Commit changes.
+
+# 2. Ustaw DNS u operatora domeny:• Wejdź do panelu domeny (np. OVH, nazwa.pl, cyber_Folks).
+# • Dodaj rekord:• Typ: CNAME
+# • Nazwa/Host: twojadomena.pl (lub www, jeśli chcesz www.twojadomena.pl)
+# • Wartość: twoj-login.github.io
+
+# • Zapisz zmiany.
